@@ -44,9 +44,15 @@ npm run dev
 
 2. git 로그인
 
+   $ git config --global user.name "John Doe"
+
+   $ git config --global user.email johndoe@example.com
+
+   --- or Personal Access Token : git classic token 토큰 인증 로그인 ---
+
    git config --global user.name "YourUsername"
 
-   git config --global user.password "<your_token>"
+   git config --global user.password "your_token"
 
 3. 원격저장소 추가 $ git remote add origin <원격 저장소 URL>
 
