@@ -25,8 +25,6 @@ localStorage를 사용하면, 브라우저에 key-value 값을 Storage에 저장
 
 즉, 세션이 바뀌어도 (브라우져 새로 고침시에도) 저장한 데이터가 유지됩니다.
 
- 
-
 setItem() - key, value 추가
 
 getItem() - value 읽어 오기
