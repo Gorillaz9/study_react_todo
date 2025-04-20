@@ -8,11 +8,8 @@ https://www.youtube.com/watch?v=PQIXOLt2TrM
 
 localStorage를 사용하면, 브라우저에 key-value 값을 Storage에 저장할 수 있습니다.
 저장한 데이터는 세션간에 공유됩니다.
-즉, 세션이 바뀌어도 저장한 데이터가 유지됩니다.
 
- 
-그럼 이제부터
-localStorage를 사용하는 방법을 알아보겠습니다.
+즉, 세션이 바뀌어도 저장한 데이터가 유지됩니다.
 
  
 
@@ -49,6 +46,17 @@ key() - index로 key값 찾기
 4. JSON 문자열을 localStorage에 저장하였습니다.
 
    window.localStorage.setItem('person', objString);
+
+5. localStorage에 값 삭제하기 removeItem()
+   window.localStorage.removeItem(key);
+
+---
+
+# useEffect
+
+1. 기본 형태 : useEffect( function, 배열 )
+
+2. component가 렌더링 될 때마다 특정 작업을 처리
 
 ---
 

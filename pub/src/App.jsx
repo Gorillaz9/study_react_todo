@@ -3,11 +3,14 @@ import { useState, useRef, useEffect } from "react";
 import "./App.css";
 
 function App() {
+  // TODO list 전체 데이터 배열
   const [todoList, setTodoList] = useState([]);
   const [sequance, setSequance] = useState(null);
 
+  // TODO list 입력 input 선택자
   const refTodoItem = useRef();
 
+  // 컴포넌트가 화면에 가장 처음 렌더링 될 때 한 번만 실행
   useEffect(() => {
     let sequance = window.localStorage.getItem("sequance");
 
