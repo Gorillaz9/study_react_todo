@@ -4,12 +4,28 @@ https://www.youtube.com/watch?v=PQIXOLt2TrM
 
 ---
 
+# TODO List 작업 -> App.jsx
+
+1. localStorage에 todolist 배열, sequance 카운터값 등록
+
+2. useEffect((), []) // 첫화면 로딩때 실행: todolist[] 로컬저장소 가져오기 또는 초기화
+
+3. handleTodoAdd = (item) => {} // + Add 버튼 클릭시 실행
+
+4. handleTodoCheck = (tf, idx) => {} // v 체크 클릭 하면 실행
+
+5. handleTodoDelete = (id) => {} // x 삭제 버튼 클릭하면 실행
+
+---
+
 # localStorage란?
 
 localStorage를 사용하면, 브라우저에 key-value 값을 Storage에 저장할 수 있습니다.
 저장한 데이터는 세션간에 공유됩니다.
 
-즉, 세션이 바뀌어도 저장한 데이터가 유지됩니다.
+즉, 세션이 바뀌어도 (브라우져 새로 고침시에도) 저장한 데이터가 유지됩니다.
+
+ 
 
 setItem() - key, value 추가
 
