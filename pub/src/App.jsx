@@ -22,16 +22,16 @@ function App() {
     }
 
     const handleSetInit = () => {
-      // setItem(key, value) : localStorage에 todolist 배열로 빈배열[] 추가
+      // setItem(key, value) : localStorage에 todolist 배열 빈배열[] 추가
       window.localStorage.setItem("todolist", "[]");
       return "[]";
     };
 
-    // todo = todolist 배열 가져와서 JSON 문자열로 변환하거나 배열값이 없으면 todolist 빈배열로 [] 추가
+    // todo = JSON 문자열로 변환해서 todolist 배열 가져오거나 배열값이 없으면 todolist[빈배열] 변수 저장
     let todo = JSON.parse(window.localStorage.getItem("todolist") ?? handleSetInit());
 
-    setTodoList(todo); // JSON 문자열로 변환된 TODO배열 목록 => todoList[] 배열에 업데이트
-    setSequance(Number(sequance)); // 배열 카운트 id값 넘버 숫자로 변환해서 sequance 값에 업데이트
+    setTodoList(todo); // JSON 문자열로 변환된 로컬스토리지 저장소 => todoList[] 배열에 업데이트
+    setSequance(Number(sequance)); // 로컬스토리지 카운트 id값 넘버 숫자로 변환해서 sequance에 업데이트
   }, []);
 
   // + Add 버튼 클릭시 실행 인자로 인풋입력 값 item으로 전달
