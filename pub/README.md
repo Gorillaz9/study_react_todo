@@ -1,6 +1,54 @@
-# React Todo
+# React Todo study
 
 https://www.youtube.com/watch?v=PQIXOLt2TrM
+
+---
+
+# localStorage란?
+
+localStorage를 사용하면, 브라우저에 key-value 값을 Storage에 저장할 수 있습니다.
+저장한 데이터는 세션간에 공유됩니다.
+즉, 세션이 바뀌어도 저장한 데이터가 유지됩니다.
+
+ 
+그럼 이제부터
+localStorage를 사용하는 방법을 알아보겠습니다.
+
+ 
+
+setItem() - key, value 추가
+
+getItem() - value 읽어 오기
+
+removeItem() - item 삭제
+
+clear() - 도메인 내의 localStorage 값 삭제
+
+length - 전체 item 갯수
+
+key() - index로 key값 찾기
+
+# localStorage에 아이템 추가, 읽기
+
+1. setItem()
+
+   localStorage에 아이템을 추가하기 위해서는 setItem() 함수를 사용합니다.
+
+   window.localStorage.setItem(key, value)
+
+2. getItem()
+
+   localStorage의 아이템을 읽기 위해서는 getItem() 함수를 사용합니다.
+
+   window.localStorage.getItem(key)
+
+3. localStorage에 객체나 배열를 저장하기 위해서는 객체와 배열를 JSON 문자열로 변환해서 저장
+
+   const objString = JSON.stringify(obj);
+
+4. JSON 문자열을 localStorage에 저장하였습니다.
+
+   window.localStorage.setItem('person', objString);
 
 ---
 
