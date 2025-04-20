@@ -26,7 +26,7 @@ jooyoung 주영님 아직 git 아이디 안보내주셨음
 
 ---
 
-# 리액트 프로젝트 생성 기본 명령어 vite
+# 리액트 프로젝트 생성 기본 명령어 vite ~
 
 npm create vite@latest {폴더 명} -- -- template {템플릿 명}
 
