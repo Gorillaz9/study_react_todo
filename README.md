@@ -33,7 +33,9 @@ npm create vite@latest {폴더 명} -- -- template {템플릿 명}
 ex. npm create vite@latest pub -- -- template react-todolist
 
 cd pub
+
 npm install
+
 npm run dev
 
 # Git 자주사용하는 명령어
