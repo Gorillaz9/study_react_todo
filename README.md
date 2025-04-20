@@ -68,6 +68,8 @@ npm run dev
 
    git add .
 
+   git status // stage 추가 된 파일 목록 보기
+
    git commit -m "작업 내용 요약"
 
 7. 해단 브렌치에 작업 업데이트
