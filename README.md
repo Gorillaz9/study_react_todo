@@ -41,34 +41,47 @@ npm run dev
 1. git init
 
 2. git 로그인
+
    git config --global user.name "YourUsername"
+
    git config --global user.password "<your_token>"
 
 3. 원격저장소 추가 $ git remote add origin <원격 저장소 URL>
+
    git remote add origin https://github.com/Gorillaz9/study_react_todo.git
 
 4. 원격저장소 동기화
+
    git clone https://github.com/Gorillaz9/study_react_todo.git
 
 5. 브랜치 만들기
 
 - branch 생성 및 해당 브랜치로 이동 --> 각자 브랜치를 나누고 각 브랜치에서 업데이트 예정
-  git branch {브랜치*이름}
-  git checkout {브랜치*이름}
+
+  git branch {브랜치\*이름}
+
+  git checkout {브랜치\*이름}
 
 6. 업데이트할 작업내역을 추가 및 요약맨트
+
    git add .
+
    git commit -m "작업 내용 요약"
 
 7. 해단 브렌치에 작업 업데이트
+
    git pull : push 전에 항상 원격저장소와 동기화 먼저
+
    git push : add 한 파일 원격 저장소에 업로드
 
 # Git 버전관리 명령어 총정리 - 참고
 
 git init . <<버전관리의 시작을 알리는 명령이다.
+
 Repository : 파일 저장소
+
 working tree : 작업하고 있는 File
+
 Staging Area : 버전을 만드려 하는 File
 
 git status : 현재 작업 상태를 출력한다
