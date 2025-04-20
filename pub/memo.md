@@ -1,4 +1,4 @@
-# React Study 회고
+# React Study 회고 - pub
 
 # 2025_04_20 - 1차
 
