@@ -48,38 +48,38 @@ npm run dev
 
    $ git config --global user.email johndoe@example.com
 
-   --- or Personal Access Token : git classic token 토큰 인증 로그인 ---
+   --- or Personal Access Token : git classic token 토큰 인증 로그인 방법 ---
 
-   git config --global user.name "YourUsername"
+   $ git config --global user.name "YourUsername"
 
-   git config --global user.password "your_token"
+   $ git config --global user.password "your_token"
 
 3. 원격저장소 추가 $ git remote add origin <원격 저장소 URL>
 
-   git remote add origin https://github.com/Gorillaz9/study_react_todo.git
+   $ git remote add origin https://github.com/Gorillaz9/study_react_todo.git
 
 4. 원격저장소 동기화
 
-   git clone https://github.com/Gorillaz9/study_react_todo.git
+   $ git clone https://github.com/Gorillaz9/study_react_todo.git
 
 5. 브랜치 만들기
 
 - branch 생성 및 해당 브랜치로 이동 --> 각자 브랜치를 나누고 각 브랜치에서 업데이트 예정
 
-  git branch {브랜치\*이름}
+  $ git branch {브랜치\*이름}
 
-  git checkout {브랜치\*이름}
+  $ git checkout {브랜치\*이름}
 
 6. 업데이트할 작업내역을 추가 및 요약맨트
 
-   git add .
+   $ git add .
 
-   git status // stage 추가 된 파일 목록 보기
+   $ git status // stage 추가 된 파일 목록 보기
 
-   git commit -m "작업 내용 요약"
+   $ git commit -m "작업 내용 메모 텍스트 작성"
 
 7. 해단 브렌치에 작업 업데이트
 
-   git pull : push 전에 항상 원격저장소와 동기화 먼저
+   $ git pull : push 전에 항상 원격저장소와 동기화 먼저
 
-   git push : add 한 파일 원격 저장소에 업로드
+   $ git push : add 한 파일 원격 저장소에 업로드
