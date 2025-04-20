@@ -4,6 +4,20 @@ https://www.youtube.com/watch?v=PQIXOLt2TrM
 
 ---
 
+# App.jsx
+
+1. localStorage에 todolist 배열, sequance 카운터값 등록
+
+2. useEffect((), [])
+
+3. handleTodoAdd = (item) => {}
+
+4. handleTodoCheck = (tf, idx) => {}
+
+5. handleTodoDelete = (id) => {}
+
+---
+
 # localStorage란?
 
 localStorage를 사용하면, 브라우저에 key-value 값을 Storage에 저장할 수 있습니다.
