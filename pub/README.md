@@ -8,7 +8,7 @@ https://www.youtube.com/watch?v=PQIXOLt2TrM
 
 1. localStorage에 todolist 배열, sequance 카운터값 등록
 
-2. useEffect((), []) // 첫화면 로딩때 실행: todolist[] 로컬저장소 추가,
+2. useEffect((), []) // 첫화면 로딩때 실행: todolist[] 로컬저장소 가져오기 또는 초기화
 
 3. handleTodoAdd = (item) => {} // + Add 버튼 클릭시 실행
 
